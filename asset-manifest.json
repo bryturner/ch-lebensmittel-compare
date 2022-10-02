@@ -1,0 +1,11 @@
+{
+  "files": {
+    "main.js": "/static/js/main.31c5bbf4.js",
+    "static/media/allGroceries.jpg": "/static/media/allGroceries.3e9b560b3a110a6aff8d.jpg",
+    "index.html": "/index.html",
+    "main.31c5bbf4.js.map": "/static/js/main.31c5bbf4.js.map"
+  },
+  "entrypoints": [
+    "static/js/main.31c5bbf4.js"
+  ]
+}
