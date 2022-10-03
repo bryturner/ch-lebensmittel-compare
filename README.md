@@ -6,9 +6,11 @@ This app lets the user compare grocery prices from several of the primary grocer
 
 The user has the choice of selecting a category of grocery after which the products are sorted and displayed based on the store in which they can be found. They can then use a search input to filter groceries based on the product title. They may also choose to click a compare button on a particular product which matches that product title with other products titles based on similarity and filters out anything that doesn't match.
 
-
+![search and compare functionality](https://github.com/bryturner/ch-lebensmittel-compare/blob/backup-main/searchcompare.gif)
 
 After the user finds a product they like, they may choose to add it to their grocery list or favorites list. Both lists sort and display products based on the product's store name to help the user see which products they will find in which stores and are stored in local storage. If the user wishes to visit the product page or store website, links are provided for both.
+
+![add and remove products from user lists](https://github.com/bryturner/ch-lebensmittel-compare/blob/backup-main/userlists.gif)
 
 ## Motivation
 
