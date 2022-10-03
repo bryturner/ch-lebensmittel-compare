@@ -1,5 +1,4 @@
 import styled from "styled-components";
-import { SecondaryButton } from "../../constants/Theme";
 
 const Container = styled.div`
    position: relative;

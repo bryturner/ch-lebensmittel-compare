@@ -50,22 +50,22 @@ const Subheading = styled.p`
 
 const HomePage = () => {
    return (
-      //  <PageErrorBoundary>
-      <Container>
-         <Header>
-            <Heading>Compare Groceries in Switzerland</Heading>
-            <Subheading>
-               Find the best prices all within walking distance
-            </Subheading>
-         </Header>
-         <UserListsContextProvider>
-            <StoreLists />
-            <UserLists />
-         </UserListsContextProvider>
-         <Footer />
-         <BackgroundImage />
-      </Container>
-      //  </PageErrorBoundary>
+      <PageErrorBoundary>
+         <Container>
+            <Header>
+               <Heading>Compare Groceries in Switzerland</Heading>
+               <Subheading>
+                  Find the best prices all within walking distance
+               </Subheading>
+            </Header>
+            <UserListsContextProvider>
+               <StoreLists />
+               <UserLists />
+            </UserListsContextProvider>
+            <Footer />
+            <BackgroundImage />
+         </Container>
+      </PageErrorBoundary>
    );
 };
 

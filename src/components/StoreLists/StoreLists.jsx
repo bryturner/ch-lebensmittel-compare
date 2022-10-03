@@ -61,7 +61,6 @@ const LowerContainer = styled.div`
 const StoreLists = () => {
    const [products, setProducts] = useState([]);
    const [category, setCategory] = useState("fruechte-gemuese");
-   const [loading, setLoading] = useState(false);
 
    const [state, dispatchFilter] = useFilterReducer({ products: products });
 
@@ -108,7 +107,6 @@ const StoreLists = () => {
                   products={state.products}
                   compareId={state.compareId}
                   dispatchFilter={dispatchFilter}
-                  loading={loading}
                   key={storeTitle}
                />
             ))}
