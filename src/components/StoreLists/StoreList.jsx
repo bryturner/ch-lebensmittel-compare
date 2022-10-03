@@ -1,6 +1,5 @@
 import styled from "styled-components";
 import { LIST_TYPE } from "../../constants/GlobalVariables";
-import Loading from "../Loading/Loading";
 import Product from "../Product/Product";
 import StoreListHeading from "./StoreListHeading";
 
@@ -22,15 +21,10 @@ const ListContainer = styled.div`
    border-top: none;
    border-bottom-left-radius: 8px;
    border-bottom-right-radius: 8px;
-`;
 
-const LoadingWrapper = styled.div`
-   position: absolute;
-   top: 50%;
-   left: 50%;
-   transform: translate(-50%, -60%);
-   opacity: ${(props) => (props.loading ? "1" : "0")};
-   visibility: ${(props) => (props.loading ? "visible" : "hidden")};
+   @media (max-width: 912px) {
+      height: 30rem;
+   } ;
 `;
 
 const ProductList = styled.ul`
@@ -62,10 +56,6 @@ function StoreList({
             compareId={compareId}
          />
          <ListContainer>
-            {/* <LoadingWrapper loading={loading}>
-          <Loading type="bars" color="#999" />
-        </LoadingWrapper> */}
-
             <ProductList>
                {products.length === 0 ? (
                   <Text>No products found in this store</Text>

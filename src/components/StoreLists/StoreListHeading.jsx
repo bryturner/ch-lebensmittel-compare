@@ -21,8 +21,8 @@ const Button = styled.button`
    position: absolute;
    bottom: 50%;
    right: 0;
-   transform: translate(-15px, 50%);
-   padding: 0.5rem;
+   transform: translate(-25px, 50%);
+   padding: 5px 10px;
    border: none;
    font-size: ${({ theme }) => theme.fontSize.smMd};
    font-family: inherit;
@@ -50,7 +50,7 @@ function StoreListHeading({ storeTitle, dispatchFilter, compareId }) {
                dispatchFilter({ type: "reset" });
             }}
          >
-            Reset Compare
+            Reset
          </Button>
       </Container>
    );

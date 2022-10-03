@@ -73,7 +73,7 @@ const UserLists = () => {
 
    return (
       <Container>
-         {/* <ErrorMessage errorMsg={localStorageError} /> */}
+         <ErrorMessage errorMsg={localStorageError} />
          <UserListsContainer>
             <ListContainer>
                <UserList
@@ -82,7 +82,6 @@ const UserLists = () => {
                   userList={groceryList}
                />
                <ButtonContainer>
-                  {/* <UserListButton buttonText="Share grocery list" /> */}
                   <UserListButton
                      handleClick={handleClearGroceryClick}
                      buttonText="Clear grocery list"
@@ -96,7 +95,6 @@ const UserLists = () => {
                   userList={favoritesList}
                />
                <ButtonContainer>
-                  {/* <UserListButton buttonText="Share favorites list" /> */}
                   <UserListButton
                      handleClick={handleClearFavoritesClick}
                      buttonText="Clear favorites list"
