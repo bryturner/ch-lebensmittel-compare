@@ -19,7 +19,7 @@ function Footer() {
    return (
       <Container>
          <FooterLink
-            url="https://github.com/bryturner/grocery-comparison-client"
+            url="https://github.com/bryturner/ch-lebensmittel-compare"
             linkText="Github Repo"
          />
          <Text>Website by Bryan Turner</Text>
