@@ -8,6 +8,8 @@ The user has the choice of selecting a category of grocery after which the produ
 
 ![search and compare functionality](https://github.com/bryturner/ch-lebensmittel-compare/blob/backup-main/searchcompare.gif)
 
+##
+
 After the user finds a product they like, they may choose to add it to their grocery list or favorites list. Both lists sort and display products based on the product's store name to help the user see which products they will find in which stores and are stored in local storage. If the user wishes to visit the product page or store website, links are provided for both.
 
 ![add and remove products from user lists](https://github.com/bryturner/ch-lebensmittel-compare/blob/backup-main/userlists.gif)
