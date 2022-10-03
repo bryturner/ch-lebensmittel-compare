@@ -2,7 +2,7 @@
 
 This app lets the user compare grocery prices from several of the primary grocery stores in Switzerland. The products are displayed and filtered by category and by the store in which they can be purchased. Users can also save products on a grocery list or favorites list.
 
---> Check out the website [here](https://lebensmittel-compare.web.app/){:target="_blank"} <--
+--> Check out the website [here](https://lebensmittel-compare.web.app/) <--
 
 ## Features
 
