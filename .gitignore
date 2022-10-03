@@ -12,6 +12,8 @@
 /build
 
 # misc
+.firebase
+.firebaserc
 todo.txt
 InterviewPrep.txt
 .DS_Store
